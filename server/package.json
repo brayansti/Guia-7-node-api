@@ -1,0 +1,15 @@
+{
+  "name": "servidorexpress",
+  "version": "1.0.0",
+  "description": "esto va ser una prueba de servidor ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "runserver": "node myserver/myserver.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
