@@ -29,6 +29,7 @@ module.exports = (app) => {
     });
     
     app.get(`${API_BASE}/users/:id` , (req , res) => {
+        console.log(req.params);
         const query = db.getUsersByID(req.params.id)
         res.json(query);
     });
